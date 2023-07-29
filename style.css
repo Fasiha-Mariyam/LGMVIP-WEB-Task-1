@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+width: 100%;
+min-height: 100vh;
+background: linear-gradient(20deg,#73797c,#045c81);
+padding: 10px;
+}
+.to-do-app{
+    width: 100%;
+    max-width: 500px;
+    color: #045c81;
+    background:white;
+    border-radius: 10px;
+    margin:100px auto 20px ;
+    padding:40px 20px 70px;
+}
+.to-do-app h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.to-do-app h2 img{
+    width: 40px;
+    margin-left: 10px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #045c81 ;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+#input-box{
+    margin-right: 10px;
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+    outline: none;
+    margin: 10px 0px;
+    font-size: large;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    background:#73797c;
+    color:white ;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+ul li{
+    color: black;
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 5px 5px 30px;
+    cursor: pointer;
+    user-select: none;
+}
+button:hover{
+background: #626364;
+}
+
